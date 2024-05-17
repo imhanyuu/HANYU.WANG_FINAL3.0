@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New York City Neighborhood Map</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
+</head>
+<body>
+    <!-- Map container -->
+    <div id="map"></div>
+    <!-- Overlay for background image -->
+    <div id="overlay-bg"></div>
+    <!-- Overlay for changing images -->
+    <div id="overlay"></div>
+    <!-- Start overlay with onclick event to change image -->
+    <div id="start-overlay" onclick="changeStartImage()"></div>
+    <!-- Legend for parks -->
+    <div id="legend">
+        <p><span class="legend-color"></span> Park Area</p>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Turf.js/6.5.0/turf.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
