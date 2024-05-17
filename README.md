@@ -35,7 +35,7 @@ This project is designed as a dynamic tool to help users delve into the historic
 
 ### Getting Started
 1. **Explore the Map**: Use our interactive map to find neighborhoods that pique your interest.
-2. **Click to Reveal Data**: Click on any neighborhood to see historical sales prices and trends.
+2. **Click to Reveal Data**: Hover the mouse to view the community name, Click on any neighborhood to see historical sales prices and trends.
 3. **Analyze Trends**: Compare prices from 2010, 2015, and 2020 to identify growth areas.
 4. **Make Informed Decisions**: Use the data to guide your home buying or selling decisions.
 
